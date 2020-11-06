@@ -1,0 +1,25 @@
+name: reverse-rec
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - git
+  - jupyterlab
+  - matplotlib-base
+  - numpy
+  - pandas
+  - pip
+  - python
+  - scikit-learn
+  - scipy
+  - seaborn
+  - nodejs
+  - ipywidgets
+  - pandas-profiling
+  - optuna
+  - implicit
+  # jupyterlab extensions
+  - jupyterlab_code_formatter
+  - black
+  - isort
+  - nb_conda_kernels
