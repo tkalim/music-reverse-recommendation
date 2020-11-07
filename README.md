@@ -14,4 +14,4 @@ to reproduce environment:
 If using jupyterlab execute the following for the tqdm bar to render properly:
 `jupyter labextension install @jupyter-widgets/jupyterlab-manager`
 
-***Please open the notebook on nbviewer below or on a jupyter server for the dynamic html to render properly***.
+***Please open the notebook on nbviewer by clicking on the badge above or on a jupyter server for the dynamic html to render properly***.
