@@ -68,7 +68,7 @@ def recommend_users(als_model, plays_matrix, traid, n, tracks_mapping, users_map
         userid=item_id, user_items=plays_matrix.T, N=n
     )
     recommendations = [
-        (users_mapping[x[0]], x[1], [als_model.user_factors[x[0]]])
+        (users_mapping[x[0]], x[1], als_model.user_factors[x[0]])
         for x in recommendations
     ]
     return pd.DataFrame(recommendations, columns=["userid", "score", "factor"])
