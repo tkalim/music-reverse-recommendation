@@ -1,5 +1,4 @@
 import pandas as pd
-from sklearn.pipeline import Pipeline
 from pathlib import Path
 from datetime import datetime
 import pickle
